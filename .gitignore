@@ -1,0 +1,9 @@
+# Ignore droppings from various WDL executors.
+
+# cromwell
+/cromwell-executions/
+/cromwell-workflow-logs/
+
+# miniwdl
+/20[2-9][0-9][0-9][0-9][0-9][0-9]_*/
+/_LAST
