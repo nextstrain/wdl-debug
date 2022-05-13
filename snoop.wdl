@@ -14,4 +14,7 @@ task dump {
     output {
         File env = "env"
     }
+    runtime {
+        docker: "ubuntu:latest"
+    }
 }
